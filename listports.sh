@@ -4,6 +4,7 @@
 #                                               #
 # Script author: C-Fu @ HomeLAB.my              #
 # Note: If url doesn't work, maybe it's https?  #
+# Output: HostName_ports_YYYY-MM-DD_HHMMSS.md   #
 #                                               #
 #################################################
 
