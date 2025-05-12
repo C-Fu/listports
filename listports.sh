@@ -28,21 +28,17 @@ OUTPUT_FILE="$SERVER_NAME""_ports_""$OUTPUT_DATE"".md"
 # date format to append the output filename, eg listports-yyyy-mm-dd-231259.md
 OUTPUT_DATE=$(date +"%Y-%m-%d_%H%M%S")
 
-# Markdown-format cat
+# Markdown-format header
 cat > "$OUTPUT_FILE" <<EOF
-#############################################################
-#                                                           #
-# List all currently using ports                            #
-# List generated on $(date +"%A, %d %B %Y at %I:%M:%S %p.")
-# Format:                                                   #
-# - HostName:IP                                             #
-#   - ContainerName                                         #
-#     - [HostName:Port](http://IP:Port)                     #
-#                                                           #
-#############################################################
+> listports.sh 
+> List all currently using ports List generated on Tuesday,
+> 13 May 2025 at 03:04:06 AM. Format:
+> - HostName:IP
+>   - ContainerName
+>     - [HostName:Port](http://IP:Port)
 
 
-- **$SERVER_NAME:$SERVER_IP**
+# $SERVER_NAME:$SERVER_IP
 EOF
 
 # Main code, based from docker ps formatting
