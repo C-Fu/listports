@@ -33,7 +33,7 @@ cat > "$OUTPUT_FILE" <<EOF
 > listports.sh 
 > List all currently using ports List generated on Tuesday,
 > 13 May 2025 at 03:04:06 AM. Format:
-> - HostName:IP
+> HostName:IP
 >   - ContainerName
 >     - [HostName:Port](http://IP:Port)
 
