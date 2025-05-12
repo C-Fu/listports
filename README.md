@@ -1,7 +1,7 @@
 # ://listports.sh
 Bash shell script to output the list of used docker ports to a MarkDown file, using docker ps, inspect with formatting.
 Executable file: `listports.sh`
-Output file: HostName_ports_YYYY-MM-DD_HHMMSS.md
+Output file: `HostName_ports_YYYY-MM-DD_HHMMSS.md`
 
 ## Instructions
 Either download the `listports.sh` file, or execute directly via `wget`, `curl` or alias:
