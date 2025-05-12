@@ -30,12 +30,16 @@ OUTPUT_DATE=$(date +"%Y-%m-%d_%H%M%S")
 
 # Markdown-format cat
 cat > "$OUTPUT_FILE" <<EOF
-############################################################
-#
-# List all currently using ports
+#############################################################
+#                                                           #
+# List all currently using ports                            #
 # List generated on $(date +"%A, %d %B %Y at %I:%M:%S %p.")
-#
-############################################################
+# Format:                                                   #
+# - HostName:IP                                             #
+#   - ContainerName                                         #
+#   - [HostName:Port](http://IP:Port)                       #
+#                                                           #
+#############################################################
 
 
 - **$SERVER_NAME:$SERVER_IP**
