@@ -37,7 +37,7 @@ cat > "$OUTPUT_FILE" <<EOF
 # Format:                                                   #
 # - HostName:IP                                             #
 #   - ContainerName                                         #
-#   - [HostName:Port](http://IP:Port)                       #
+#     - [HostName:Port](http://IP:Port)                     #
 #                                                           #
 #############################################################
 
