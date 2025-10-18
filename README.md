@@ -28,3 +28,5 @@ and then just run `listports` command
 ```bash
 $ listports
 ```
+
+A pretty way to view listports is to (use something like bat)[https://github.com/sharkdp/bat]
