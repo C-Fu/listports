@@ -18,7 +18,7 @@ curl -L https://raw.githubusercontent.com/C-Fu/listports/refs/heads/main/listpor
 As an **alias**:
 Edit and add an alias inside your user's existing .bashrc file at the end of the file
 ```bash
-alias listports='curl -L https://raw.githubusercontent.com/C-Fu/listports/refs/heads/main/listports.sh'
+alias listports='curl -L https://raw.githubusercontent.com/C-Fu/listports/refs/heads/main/listports.sh | bash'
 ```
 Then save, and then type this in bash to reload your .bashrc file
 ```bash
