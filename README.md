@@ -29,4 +29,4 @@ and then just run `listports` command
 $ listports
 ```
 
-A pretty way to view listports is to (use something like bat)[https://github.com/sharkdp/bat]
+A pretty way to view listports is to [use something like bat](https://github.com/sharkdp/bat)
